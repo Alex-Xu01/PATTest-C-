@@ -10,7 +10,7 @@ int main()
 	{//fix bug again
 		int k=sqrt(n)+1;
 		for(start =2 ; start <= k; start++)
-		{
+		{//fix bug aaggiinn
 			long long sum =1;
 			for(i=start ,j=0 ; j<len ; j++,i++)
 			{
