@@ -1,4 +1,4 @@
-#include<iostream>
+﻿#include<iostream>
 #include<cmath>
 using namespace std;
 int main()
@@ -7,7 +7,7 @@ int main()
 	cin>>n;
 	int len ,i ,j ,flag = 0, start;
 	for(len=12; len>=1; len--)					//因为计算（1<N<231）的连续因子，所以根据因子的定义最大的因子一定不超过230，且2*3*4……*13>>230。所以len=12，即连续因子序列最长不会超过12个。
-	{
+	{//fix bug again
 		int k=sqrt(n)+1;
 		for(start =2 ; start <= k; start++)
 		{
